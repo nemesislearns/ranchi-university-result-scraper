@@ -1,0 +1,8 @@
+my_scraper_env/
+venv/
+__pycache__/
+*.pyc
+*.xlsx
+*.csv
+firefox_temp_profile/
+geckodriver.log
