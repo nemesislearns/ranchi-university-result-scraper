@@ -31,32 +31,26 @@
 ## 🛠️ Installation
 
 1.  **Clone the Repository**
-
-\`\`\`bash
-git clone https://github.com/nemesislearns/ranchi-university-result-scraper.git
-cd ranchi-university-result-scraper
-\`\`\`
+    \`\`\`bash
+    git clone https://github.com/nemesislearns/ranchi-university-result-scraper.git
+    cd ranchi-university-result-scraper
+    \`\`\`
 
 2.  **Install Requirements**
-
-\`\`\`bash
-pip install -r requirements.txt
-\`\`\`
+    \`\`\`bash
+    pip install -r requirements.txt
+    \`\`\`
 
 ## 📋 Usage Guide
-
 1.  Run the script:
-
-\`\`\`bash
-python ruresultscraper.py
-\`\`\`
-
+    \`\`\`bash
+    python ruresultscraper.py
+    \`\`\`
 2.  Follow the on-screen prompts to select your browser and operating system.
-
-3. When you are filling out the form you need to enter the **Course** the **Semester** and the **Stream** exactly as you see them on the website of the institution. You should enter the **Course** and the **Stream** and the **Semester** just like they are written on the website.
-
+3.  Enter the **Course**, **Semester**, and **Stream** exactly as they appear on the official website (Case Sensitive).
 4.  Input the Roll Number range (Start & End).
 
 ## 🐛 Feedback
+If you encounter bugs specific to the new NEP format or Linux environments, please open an Issue in this repository.
 
-If you find bugs that're specific, to the new NEP format or that happen in Linux environments please open an Issue in this repository.
+---
