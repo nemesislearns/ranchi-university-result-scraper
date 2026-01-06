@@ -35,12 +35,13 @@
     ```
     
 3.  **Set up a Virtual Environment**
-      For Linux/Mac
+
+      **For Linux/Mac**
     ```bash
     python3 -m venv my_scraper_env
     source my_scraper_env/bin/activate
     ```
-       For Windiws
+       **For Windows**
     ```bash
     python -m venv my_scraper_env
     my_scraper_env\Scripts\activate
