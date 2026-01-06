@@ -1,4 +1,4 @@
-# Ranchi University Result Scraper (Universal Edition) 🎓
+# Ranchi University Result Scraper 🎓
 
 **A cross-platform automation tool for aggregating public academic results.**
 
