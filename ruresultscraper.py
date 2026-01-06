@@ -78,7 +78,7 @@ def setup_driver(os_type, browser_choice):
             service = ChromeService(ChromeDriverManager().install())
             driver = webdriver.Chrome(service=service, options=options)
 
-        # --- BRAVE (Chromium based) ---
+        # --- BRAVE ---
         elif browser_choice == '3':
             options = webdriver.ChromeOptions()
             # Auto-detect Brave path
@@ -95,7 +95,7 @@ def setup_driver(os_type, browser_choice):
             service = ChromeService(ChromeDriverManager().install())
             driver = webdriver.Chrome(service=service, options=options)
 
-        # --- OPERA (Chromium based) ---
+        # --- OPERA ---
         elif browser_choice == '4':
             options = webdriver.ChromeOptions()
             if os_type == "Windows":
@@ -114,7 +114,7 @@ def setup_driver(os_type, browser_choice):
             service = ChromeService(ChromeDriverManager().install())
             driver = webdriver.Chrome(service=service, options=options)
 
-        # --- OPERA GX (Chromium based) ---
+        # --- OPERA GX ---
         elif browser_choice == '5':
             options = webdriver.ChromeOptions()
             if os_type == "Windows":
