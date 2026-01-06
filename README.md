@@ -24,26 +24,26 @@
 * **Multi-Browser Support:** Automatically configures drivers for **Chrome, Firefox, Brave, Opera,** and **Edge**.
 * **Intelligent Parsing:** Extracts detailed metrics (SGPA, Grand Total) and hidden metadata (Name, Phone, DOB) from the page source.
 * **Privacy Controls:** Interactive menu to toggle the extraction of sensitive fields like Phone Numbers.
-* **Data Export:** Automatically compiles all results into a clean, structured \`.xlsx\` (Excel) database.
+* **Data Export:** Automatically compiles all results into a clean, structured `.xlsx` (Excel) database.
 
 ## 🛠️ Installation
 
 1.  **Clone the Repository**
-    \`\`\`bash
-    git clone https://github.com/nemesislearns/ranchi-university-result-scraper.git
+    ```bash
+    git clone [https://github.com/nemesislearns/ranchi-university-result-scraper.git](https://github.com/nemesislearns/ranchi-university-result-scraper.git)
     cd ranchi-university-result-scraper
-    \`\`\`
+    ```
 
 2.  **Install Requirements**
-    \`\`\`bash
+    ```bash
     pip install -r requirements.txt
-    \`\`\`
+    ```
 
 ## 📋 Usage Guide
 1.  Run the script:
-    \`\`\`bash
+    ```bash
     python ruresultscraper.py
-    \`\`\`
+    ```
 2.  Follow the on-screen prompts to select your browser and operating system.
 3.  Enter the **Course**, **Semester**, and **Stream** exactly as they appear on the official website (Case Sensitive).
 4.  Input the Roll Number range (Start & End).
