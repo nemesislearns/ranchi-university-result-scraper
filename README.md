@@ -33,8 +33,20 @@
     git clone [https://github.com/nemesislearns/ranchi-university-result-scraper.git](https://github.com/nemesislearns/ranchi-university-result-scraper.git)
     cd ranchi-university-result-scraper
     ```
+    
+3.  **Set up a Virtual Environment**
+      For Linux/Mac
+    ```bash
+    python3 -m venv my_scraper_env
+    source my_scraper_env/bin/activate
+    ```
+       For Windiws
+    ```bash
+    python -m venv my_scraper_env
+    my_scraper_env\Scripts\activate
+    ```
 
-2.  **Install Requirements**
+3.  **Install Requirements**
     ```bash
     pip install -r requirements.txt
     ```
