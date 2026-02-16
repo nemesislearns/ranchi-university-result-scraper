@@ -1,4 +1,4 @@
-# Ranchi University Result Scraper 🎓
+# Ranchi University Result Scraper
 
 **A cross-platform automation tool for aggregating public academic results.**
 
@@ -6,7 +6,7 @@
 
 ---
 
-## ⚖️ Legal Disclaimer & Ethics Statement
+## Legal Disclaimer & Ethics Statement
 **PLEASE READ BEFORE USING:**
 
 1.  **Public Data Only:** This software is strictly an **automation tool**. It performs the same action as a human manually entering a roll number into the public university portal. It **does not** bypass authentication, exploit vulnerabilities, or access private/encrypted databases. All data retrieved is already publicly accessible on the internet.
@@ -19,14 +19,14 @@
 
 ---
 
-## 🚀 Key Features
+## Key Features
 * **Universal Compatibility:** Runs seamlessly on **Windows** and **Linux** (Ubuntu/Debian).
 * **Multi-Browser Support:** Automatically configures drivers for **Chrome, Firefox, Brave, Opera,** and **Edge**.
 * **Intelligent Parsing:** Extracts detailed metrics (SGPA, Grand Total) and hidden metadata (Name, Phone, DOB) from the page source.
 * **Privacy Controls:** Interactive menu to toggle the extraction of sensitive fields like Phone Numbers.
 * **Data Export:** Automatically compiles all results into a clean, structured `.xlsx` (Excel) database.
 
-## 🛠️ Installation
+## Installation
 
 1.  **Clone the Repository**
     ```bash
@@ -52,7 +52,7 @@
     pip install -r requirements.txt
     ```
 
-## 📋 Usage Guide
+## Usage Guide
 1.  Run the script:
     ```bash
     python ruresultscraper.py
@@ -61,7 +61,7 @@
 3.  Enter the **Course**, **Semester**, and **Stream** exactly as they appear on the official website (Case Sensitive).
 4.  Input the Roll Number range (Start & End).
 
-## 🐛 Feedback
+## Feedback
 If you encounter bugs specific to the new NEP format or Linux environments, please open an Issue in this repository.
 
 ---
