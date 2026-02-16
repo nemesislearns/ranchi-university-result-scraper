@@ -61,7 +61,4 @@
 3.  Enter the **Course**, **Semester**, and **Stream** exactly as they appear on the official website (Case Sensitive).
 4.  Input the Roll Number range (Start & End).
 
-## Feedback
-If you encounter bugs specific to the new NEP format or Linux environments, please open an Issue in this repository.
-
 ---
